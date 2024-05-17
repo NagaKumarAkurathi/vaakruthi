@@ -22,6 +22,7 @@ public class AnonymousInnerClassApproachRunnable {
 			public void run() {
 				for(int i=1;i<=5;i++) {
 					System.out.println("Child thread");
+					System.out.println("HELLO");
 				}
 				
 			}
